@@ -481,7 +481,7 @@ const DistanceMatrixComponent: React.FC<DistanceMatrixComponentProps> = ({ onDat
               <Card className="w-full">
                 <CardHeader>
                   <CardDescription>
-                    <strong># Disclaimer:</strong> Distance, time, and price are approximate estimates from map
+                    <strong># Disclaimer:</strong> Distance and price are approximate estimates from map
                     calculations, and actual values may vary.
                   </CardDescription>
                 </CardHeader>
@@ -493,7 +493,7 @@ const DistanceMatrixComponent: React.FC<DistanceMatrixComponentProps> = ({ onDat
                     </span>
                   </div>
                   <div className="flex flex-row gap-2">
-                    <Label className="text-base text-zinc-300 font-bold">Time:</Label>
+                    {/* <Label className="text-base text-zinc-300 font-bold">Time:</Label> */}
                     <span className="text-lg text-green-400 font-semibold">{time || "Calculating..."}</span>
                   </div>
                   <div className="flex flex-row gap-2">
@@ -507,7 +507,7 @@ const DistanceMatrixComponent: React.FC<DistanceMatrixComponentProps> = ({ onDat
               </Card>
             ) : (
               <CardDescription className="px-2">
-                Select pick-up and drop-off locations to see distance, time, and price.
+                Select pick-up and drop-off locations to see distance, and price.
               </CardDescription>
             )}
           </div>

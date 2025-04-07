@@ -425,10 +425,10 @@ export default function Page() {
                           <span className="text-gray-200 text-lg font-medium">Distance</span>
                           <span className="text-blue-400 text-lg font-semibold">{mapData.distance?.toFixed(1)} km</span>
                         </div>
-                        <div className="flex justify-between items-center">
+                        {/* <div className="flex justify-between items-center">
                           <span className="text-gray-200 text-lg font-medium">Time</span>
                           <span className="text-green-600 text-lg font-semibold">{mapData.time}</span>
-                        </div>
+                        </div> */}
                         <div className="flex justify-between items-center">
                           <span className="text-gray-200 text-lg font-medium">Delivery Charges</span>
                           <span className="text-green-600 text-lg font-semibold">₹ {mapData.price}</span>

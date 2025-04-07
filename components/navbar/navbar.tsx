@@ -59,6 +59,7 @@ function Navbar() {
         { name: "Marketplace", href: "/products" },
         { name: "Discover Seller", href: "/discover" },
         { name: "Delivery Rates", href: "/delivery-rates" },
+        { name: "Cargo Service", href: "https://cargo3.vercel.app/" },
     ];
 
     const UserGreeting = () => (

@@ -142,11 +142,11 @@ function Navbar() {
                             <Tooltip>
                                 <TooltipTrigger>
                                     <div className="cartBtn relative rounded-full p-0.5 text-[0.95rem] leading-none hover:bg-[#222226a6]">
-                                        {cartItems.length > 0 && (
+                                        {/* {cartItems.length > 0 && (
                                             <div className="absolute -top-1 -right-1 bg-green-600 text-white text-xs font-semibold w-5 h-5 flex items-center justify-center rounded-full shadow-lg">
                                                 {cartItems.length}
                                             </div>
-                                        )}
+                                        )} */}
                                         <div className="button-overlay"></div>
                                         <span className="rounded-full p-2.5 gap-3">
                                             <svg
@@ -199,11 +199,11 @@ function Navbar() {
                                 <Tooltip>
                                     <TooltipTrigger>
                                         <div className="cartBtn relative rounded-full p-0.5 text-[0.95rem] leading-none hover:bg-[#222226a6]">
-                                            {cartItems.length > 0 && (
+                                            {/* {cartItems.length > 0 && (
                                                 <div className="absolute -top-1 -right-1 bg-green-600 text-white text-xs font-semibold w-5 h-5 flex items-center justify-center rounded-full shadow-lg">
                                                     {cartItems.length}
                                                 </div>
-                                            )}
+                                            )} */}
                                             <div className="button-overlay"></div>
                                             <span className="rounded-full p-2.5 gap-3">
                                                 <svg

@@ -180,28 +180,28 @@ const cards = [
     content: <SkeletonOne />,
     className: "md:col-span-2",
     thumbnail:
-      "https://drive.google.com/file/d/1D3okouXEepoWFiXCGhFtka9_A4plHvUa/view?usp=sharing",
+      "/f.jpg",
   },
   {
     id: 2,
     content: <SkeletonTwo />,
     className: "col-span-1",
     thumbnail:
-    "https://drive.google.com/file/d/1_yMCZ1OlRDoDZke_Fp6_X9v1X1GQL36I/view?usp=drive_link",
+    "/c.jpg",
   },
   {
     id: 3,
     content: <SkeletonThree />,
     className: "col-span-1",
     thumbnail:
-      "https://drive.google.com/file/d/10tHg5jWGv7pMaDNWCZq5Lzr7Ax22FVts/view?usp=sharing",
+      "/d.jpg",
   },
   {
     id: 4,
     content: <SkeletonFour />,
     className: "md:col-span-2",
     thumbnail:
-      "https://drive.google.com/file/d/1k5cYLGyJ8brv1XIiRwjMSDpfTp1NZgKM/view?usp=sharing",
+      "/e.jpg",
   },
 ];
 

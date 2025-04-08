@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Explore everything with Mateng",
-  description: "Explore everything with Mateng",
+  title: "Explore with Mateng",
+  description: "Explore with Mateng",
 };
 
 export const viewport = {

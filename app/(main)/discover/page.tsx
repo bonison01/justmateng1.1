@@ -105,7 +105,7 @@ export default function Page() {
                                     <span>Mateng Discovery</span>
                                 </div>
                                 <div className='w-full xl:w-1/2 leading-none text-xs sm:text-sm text-gray-200/90'>
-                                    <span>Purple raindrops danced on the windowpane during the unexpected summer storm.</span>
+                                    <span>Explore businesses nearby you.</span>
                                 </div>
                             </div>
 

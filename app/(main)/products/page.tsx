@@ -130,7 +130,7 @@ export default function Page() {
                                     <span>products for your home</span>
                                 </div>
                                 <div className='w-full xl:w-1/2 leading-none text-xs sm:text-sm text-gray-200/90'>
-                                    <span>Purple raindrops danced on the windowpane during the unexpected summer storm.</span>
+                                    <span>Explore products on Mateng Marketplace and find everything you need.</span>
                                 </div>
                             </div>
 

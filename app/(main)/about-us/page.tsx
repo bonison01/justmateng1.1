@@ -40,10 +40,10 @@ export default function Page() {
         <div className="w-full h-16"></div>
         <div className="w-full max-w-[1400px] mx-auto p-4">
         <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-        Company Overview:
-            </h2>
-          <div className="w-full max-w-[1200px] mx-auto">
-            Mateng operates under the company name "JustMateng Service Pvt Ltd."</div>
+            Company Overview:
+        </h2>
+        <div className="w-full max-w-[1200px] mx-auto">
+              Mateng operates under the company name "JustMateng Service Pvt Ltd."</div>
           <div className="h-[40rem]">
             <LayoutGrid cards={cards} />
           </div>
@@ -56,9 +56,8 @@ export default function Page() {
             Partnerships and Achievements:
             </h2>
             <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-            Throughout its journey, Mateng partnered with over 200 businesses, including major corporations in Manipur like Shija Hospital✅.<br />
-
-            ✅The company discovered and promoted more than 150 small businesses, creating content that reached a large number of social media users.
+            Throughout its journey, Mateng partnered with over 200 businesses, including major corporations in Manipur like Shija Hospital✅.<br /><br />
+            ✅The company discovered and promoted more than 150 small businesses, creating content that reached a large number of social media users.<br /><br />
 
             ✅Mateng also collaborated with the Manipur Traffic Police Department in March 2025 to raise awareness about the importance of wearing helmets.
 
@@ -220,14 +219,14 @@ const data = [
         </div>
         <div className="grid grid-cols-2 gap-4">
           <Image
-            src="https://drive.google.com/file/d/1i0yjkXaow6O4M5T563By7B-JNZLSA6nV/view?usp=sharing"
+            src="/q.jpg"
             alt="startup template"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
            <Image
-            src="https://drive.google.com/file/d/1UD6bRuBSHQOkoVsvZm57pY7K8WRp5otL/view?usp=drive_link"
+            src="/p.jpg"
             alt="startup template"
             width={500}
             height={500}
@@ -274,28 +273,28 @@ const data = [
         </div>
         <div className="grid grid-cols-2 gap-4">
           <Image
-            src="https://drive.google.com/file/d/1amfQgWfxb4cH1z8TnTokmF1FLmBd5DKo/view?usp=drive_link"
+            src="/j.jpg"
             alt="startup template"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
           <Image
-            src="https://drive.google.com/file/d/1_RGt1ZwAEFmh465oP2_IOkkuDkpc-wtF/view?usp=drive_link"
+            src="/n.jpg"
             alt="startup template"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
           <Image
-            src="https://drive.google.com/file/d/1GbV4FKnugPO5pWBUqNmScmwGVn2XDAOz/view?usp=drive_link"
+            src="/m.jpg"
             alt="startup template"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
           <Image
-            src="https://drive.google.com/file/d/134MAYURZXUMslZlolmFu1MEvT3zK0j0o/view?usp=drive_link"
+            src="/o.jpg"
             alt="startup template"
             width={500}
             height={500}
@@ -327,14 +326,14 @@ const data = [
         </div>
         <div className="grid grid-cols-2 gap-4">
           <Image
-            src="https://drive.google.com/file/d/1lx09VXAi4nSCv9zoE_TVg5dv0Sg23Yop/view?usp=drive_link"
+            src="/a.jpg"
             alt="hero template"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
           <Image
-            src="https://drive.google.com/file/d/16VeWk8ts2MhYqEj7vhS15R7IQXf1KiJZ/view?usp=drive_link"
+            src="/b.jpg"
             alt="feature template"
             width={500}
             height={500}
@@ -386,7 +385,7 @@ const data = [
         </div>
         <div className="grid grid-cols-2 gap-4">
           <Image
-            src="https://drive.google.com/file/d/1XR4S90-_Vih1kjg-Ri9p2NRKCqIgdXDT/view?usp=drive_link"
+            src="/s.jpg"
             alt="hero template"
             width={500}
             height={500}

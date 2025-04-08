@@ -39,11 +39,7 @@ export default function Page() {
       >
         <div className="w-full h-16"></div>
         <div className="w-full max-w-[1400px] mx-auto p-4">
-        <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-            Company Overview:
-        </h2>
-        <div className="w-full max-w-[1200px] mx-auto">
-              Mateng operates under the company name "JustMateng Service Pvt Ltd."</div>
+        
           <div className="h-[40rem]">
             <LayoutGrid cards={cards} />
           </div>
@@ -413,6 +409,12 @@ const data = [
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           /> */}
         </div>
+        <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
+            Company Overview:
+        </h2>
+        <h5 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
+        Mateng operates under the company name "JustMateng Service Pvt Ltd.
+        </h5>
       </div>
     ),
   },

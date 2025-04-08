@@ -39,7 +39,11 @@ export default function Page() {
       >
         <div className="w-full h-16"></div>
         <div className="w-full max-w-[1400px] mx-auto p-4">
-          <div className="w-full max-w-[1200px] mx-auto">paage</div>
+        <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
+        Company Overview:
+            </h2>
+          <div className="w-full max-w-[1200px] mx-auto">
+            Mateng operates under the company name "JustMateng Service Pvt Ltd."</div>
           <div className="h-[40rem]">
             <LayoutGrid cards={cards} />
           </div>
@@ -49,11 +53,15 @@ export default function Page() {
         <div className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10">
           <div className="max-w-7xl mx-auto py-10 px-4 md:px-8 lg:px-10">
             <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-              Changelog from my journey
+            Partnerships and Achievements:
             </h2>
             <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-              I've been working on Aceternity for the past 2 years. Here's a
-              timeline of my journey.
+            Throughout its journey, Mateng partnered with over 200 businesses, including major corporations in Manipur like Shija Hospital✅.<br />
+
+            ✅The company discovered and promoted more than 150 small businesses, creating content that reached a large number of social media users.
+
+            ✅Mateng also collaborated with the Manipur Traffic Police Department in March 2025 to raise awareness about the importance of wearing helmets.
+
             </p>
           </div>
 
@@ -109,13 +117,13 @@ const SkeletonOne = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        House in the woods
+        Delivery Team in Action.
       </p>
       <p className="font-normal text-base text Criminall-white"></p>
-      <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
+      {/* <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
         A serene and tranquil retreat, this house in the woods offers a peaceful
         escape from the hustle and bustle of city life.
-      </p>
+      </p> */}
     </div>
   );
 };
@@ -124,14 +132,14 @@ const SkeletonTwo = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        House above the clouds
+        A photo with the executives of Shija and Research Institute.
       </p>
       <p className="font-normal text-base text-white"></p>
-      <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
+      {/* <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
         Perched high above the world, this house offers breathtaking views and a
         unique living experience. It's a place where the sky meets home, and
         tranquility is a way of life.
-      </p>
+      </p> */}
     </div>
   );
 };
@@ -140,13 +148,13 @@ const SkeletonThree = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Greens all over
+        Parcels Pickup and Delivery.
       </p>
       <p className="font-normal text-base text-white"></p>
-      <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
+      {/* <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
         A house surrounded by greenery and nature's beauty. It's the perfect
         place to relax, unwind, and enjoy life.
-      </p>
+      </p> */}
     </div>
   );
 };
@@ -155,13 +163,13 @@ const SkeletonFour = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Rivers are serene
+        A group photo of the team. -2024
       </p>
       <p className="font-normal text-base text-white"></p>
-      <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
+      {/* <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
         A house by the river is a place of peace and tranquility. It's the
         perfect place to relax, unwind, and enjoy life.
-      </p>
+      </p> */}
     </div>
   );
 };
@@ -172,28 +180,28 @@ const cards = [
     content: <SkeletonOne />,
     className: "md:col-span-2",
     thumbnail:
-      "https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://drive.google.com/file/d/1D3okouXEepoWFiXCGhFtka9_A4plHvUa/view?usp=sharing",
   },
   {
     id: 2,
     content: <SkeletonTwo />,
     className: "col-span-1",
     thumbnail:
-      "https://images.unsplash.com/photo-1464457312035-3d7d0e0c058e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://drive.google.com/file/d/1_yMCZ1OlRDoDZke_Fp6_X9v1X1GQL36I/view?usp=drive_link",
   },
   {
     id: 3,
     content: <SkeletonThree />,
     className: "col-span-1",
     thumbnail:
-      "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://drive.google.com/file/d/10tHg5jWGv7pMaDNWCZq5Lzr7Ax22FVts/view?usp=sharing",
   },
   {
     id: 4,
     content: <SkeletonFour />,
     className: "md:col-span-2",
     thumbnail:
-      "https://images.unsplash.com/photo-1475070929565-c985b496cb9f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://drive.google.com/file/d/1k5cYLGyJ8brv1XIiRwjMSDpfTp1NZgKM/view?usp=sharing",
   },
 ];
 
@@ -203,24 +211,29 @@ const data = [
     content: (
       <div>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          Built and launched Aceternity UI and Aceternity UI Pro from scratch
+        Expansion of Services - Cargo and E-commerce (2024 - 2025):
         </p>
+        <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+        Mateng expanded its services by launching a cargo service in 2024, enabling parcels to be sent both within and outside Manipur.
+        On March 2, 2025, Mateng joined an e-commerce marketplace, offering logistics support to facilitate seamless transactions between buyers and sellers.
+
+        </div>
         <div className="grid grid-cols-2 gap-4">
           <Image
-            src="/img1.jpg"
+            src="https://drive.google.com/file/d/1i0yjkXaow6O4M5T563By7B-JNZLSA6nV/view?usp=sharing"
             alt="startup template"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
-          <Image
-            src="/img2.jpg"
+           <Image
+            src="https://drive.google.com/file/d/1UD6bRuBSHQOkoVsvZm57pY7K8WRp5otL/view?usp=drive_link"
             alt="startup template"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
-          <Image
+          {/*<Image
             src="/img3.jpg"
             alt="startup template"
             width={500}
@@ -233,7 +246,7 @@ const data = [
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          />
+          /> */}
         </div>
       </div>
     ),
@@ -243,32 +256,46 @@ const data = [
     content: (
       <div>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          Built and launched Aceternity UI and Aceternity UI Pro from scratch
+        Introduction of 'Mateng Discovery' (Jan 2024):
         </p>
+        <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+        In January 2024, Mateng launched "Mateng Discovery," an initiative to support small businesses by rediscovering and promoting them through social media channels.
+          The initiative aimed to highlight local businesses, places, events, and people, reaching a broad audience.
+        </div>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+        Setback Due to Internet Shutdown (2024):
+        </p>
+        <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+
+            Following the Meitei-Kuki crisis, an internet shutdown lasting two months hindered Mateng’s operations, causing financial setbacks and a temporary breakdown of the business.
+            Despite this, Mateng managed to recover and regain its position in the market.
+
+
+        </div>
         <div className="grid grid-cols-2 gap-4">
           <Image
-            src="/img1.jpg"
+            src="https://drive.google.com/file/d/1amfQgWfxb4cH1z8TnTokmF1FLmBd5DKo/view?usp=drive_link"
             alt="startup template"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
           <Image
-            src="/img2.jpg"
+            src="https://drive.google.com/file/d/1_RGt1ZwAEFmh465oP2_IOkkuDkpc-wtF/view?usp=drive_link"
             alt="startup template"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
           <Image
-            src="/img3.jpg"
+            src="https://drive.google.com/file/d/1GbV4FKnugPO5pWBUqNmScmwGVn2XDAOz/view?usp=drive_link"
             alt="startup template"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
           <Image
-            src="/img4.jpg"
+            src="https://drive.google.com/file/d/134MAYURZXUMslZlolmFu1MEvT3zK0j0o/view?usp=drive_link"
             alt="startup template"
             width={500}
             height={500}
@@ -283,29 +310,37 @@ const data = [
     content: (
       <div>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          I usually run out of copy, but when I see content this big, I try to
-          integrate lorem ipsum.
+        Challenges During the Meitei-Kuki Crisis (May 2023):
         </p>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          Lorem ipsum is for people who are too lazy to write copy. But we are
-          not. Here are some more example of beautiful designs I built.
+        In May 2023, the Meitei-Kuki crisis severely impacted the operations of Mateng, forcing the company to restart from scratch.
+        Two of the co-founders left the company, and the logistics service almost came to a halt during the crisis.
         </p>
+        <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+        Rebuilding and Growth (Sept 2023 - Jan 2024):
+        </div>
+        <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+          By September 2023, Mateng resumed operations by hiring two employees, marking the start of its recovery.
+        </div>
+        <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+          Growth during this period was rapid, with daily orders increasing from 10-15 to around 40 by January 2024.
+        </div>
         <div className="grid grid-cols-2 gap-4">
           <Image
-            src="/img1.jpg"
+            src="https://drive.google.com/file/d/1lx09VXAi4nSCv9zoE_TVg5dv0Sg23Yop/view?usp=drive_link"
             alt="hero template"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
           <Image
-            src="/img1.jpg"
+            src="https://drive.google.com/file/d/16VeWk8ts2MhYqEj7vhS15R7IQXf1KiJZ/view?usp=drive_link"
             alt="feature template"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
-          <Image
+          {/* <Image
             src="/img1.jpg"
             alt="bento template"
             width={500}
@@ -318,8 +353,8 @@ const data = [
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          />
-        </div>
+          />*/}
+        </div> 
       </div>
     ),
   },
@@ -328,16 +363,18 @@ const data = [
     content: (
       <div>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-          Deployed 5 new components on Aceternity today
+        Foundation and Early Goals (Dec 2022):
+
         </p>
         <div className="mb-8">
           <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-            ✅ Card grid component
+          Mateng was founded in December 2022 as a logistics service company with the primary goal of providing essential services in Imphal, Manipur.
           </div>
           <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-            ✅ Startup template Aceternity
+            The company started with three founders and a small group of friends, aiming to expand services throughout the city.
+
           </div>
-          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+          {/* <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
             ✅ Random file upload lol
           </div>
           <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
@@ -345,17 +382,17 @@ const data = [
           </div>
           <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
             ✅ Salman Bhai Fan Club registrations open
-          </div>
+          </div> */}
         </div>
         <div className="grid grid-cols-2 gap-4">
           <Image
-            src="/img1.jpg"
+            src="https://drive.google.com/file/d/1XR4S90-_Vih1kjg-Ri9p2NRKCqIgdXDT/view?usp=drive_link"
             alt="hero template"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
-          <Image
+          {/* <Image
             src="/img1.jpg"
             alt="feature template"
             width={500}
@@ -375,7 +412,7 @@ const data = [
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          />
+          /> */}
         </div>
       </div>
     ),
